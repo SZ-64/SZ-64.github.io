@@ -27,3 +27,33 @@ $(window).scroll(function () {
   menuItems.removeClass("active");
   menuItems.filter("[href='#" + id + "']").addClass("active");
 });
+
+// Dynamically set some styles based on screen size
+$(document).ready(function(){
+  if(window.innerWidth >= 768){
+    $('#school-one-loc').addClass('text-end');
+    $('#school-one-date').addClass('text-end');
+    $('#school-two-loc').addClass('text-end');
+    $('#school-two-date').addClass('text-end');
+    $('#job-one-date').addClass('text-end');
+    $('#job-two-date').addClass('text-end');
+  }
+});
+
+$(window).resize(function(){
+  if(window.innerWidth < 768){
+    $('#school-one-loc').removeClass('text-end');
+    $('#school-one-date').removeClass('text-end');
+    $('#school-two-loc').removeClass('text-end');
+    $('#school-two-date').removeClass('text-end');
+    $('#job-one-date').removeClass('text-end');
+    $('#job-two-date').removeClass('text-end');
+  } else {
+    $('#school-one-loc').addClass('text-end');
+    $('#school-one-date').addClass('text-end');
+    $('#school-two-loc').addClass('text-end');
+    $('#school-two-date').addClass('text-end');
+    $('#job-one-date').addClass('text-end');
+    $('#job-two-date').addClass('text-end');
+  }
+});
