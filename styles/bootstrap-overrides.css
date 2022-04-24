@@ -1,0 +1,27 @@
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #70fa8e;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #47a05a;
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+  color: #70fa8e;
+}
+
+.navbar-dark:focus .navbar-nav:focus .nav-link:focus {
+  color: #70fa8e;
+}
+
+.list-group-item {
+  color: #fff;
+  background-color: #363d4a;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
