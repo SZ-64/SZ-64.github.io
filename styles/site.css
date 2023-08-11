@@ -1,6 +1,5 @@
-/* accent color: #70bafa */
 body {
-  color: #fff;
+  color: #F8F0E3;
   background-color: #2a303a;
 }
 
@@ -35,4 +34,9 @@ h1.accent {
 
 .bg-shade {
   background-color: #363d4a;
+}
+
+.badge-row {
+  padding-top: 25px;
+  padding-bottom: 0px;
 }
