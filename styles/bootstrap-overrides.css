@@ -42,6 +42,9 @@
 .card {
   color: #F8F0E3;
   background-color: #70fa8e;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 .card-body {
